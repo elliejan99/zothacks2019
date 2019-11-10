@@ -19,6 +19,16 @@ body{
   margin-left: 0.5em;
 }
 
+#finish{
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
+
 input[type=text], input[type=number]{
   position: absolute;
   bottom: 200px;
@@ -117,8 +127,4 @@ label{
 
 #interestv{
   margin-left: 725px;
-}
-/* CONTROL DISPLAYS */
-#major, #housing, #year, #political, #interest, #value{
-  display: none;
 }

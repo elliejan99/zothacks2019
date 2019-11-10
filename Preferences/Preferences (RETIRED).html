@@ -16,27 +16,27 @@
         <h1 class="question"> What is your name? (Press submit after each question!)</h1>
         <form method="POST">
           <input name = "name"type="text" placeholder="...">
-          <input type="submit">
-        </form>
+
+
         <i onclick="nameNext()" class="fas fa-arrow-circle-right"></i>
       </div>
 
       <div id="major">
         <h1 class="question"> What is your major? </h1>
-        <form method="POST">
+
           <input name="major"type="text" placeholder="...">
-          <input type="submit">
-        </form>
+
+
         <i onclick="majorNext()" class="fas fa-arrow-circle-right"></i>
         <i onclick = "majorBefore()"class="fas fa-arrow-circle-left"></i>
       </div>
 
       <div id="year">
         <h1 class="question"> What is your year? </h1>
-        <form method="POST">
+
           <input name="year"type="number" placeholder="...">
-          <input type="submit">
-        </form>
+
+
         <i onclick="yearNext()" class="fas fa-arrow-circle-right"></i>
         <i onclick = "yearBefore()"class="fas fa-arrow-circle-left"></i>
       </div>
@@ -44,7 +44,7 @@
       <div id="housing">
         <h1 class="question"> Where do you live? (Pick 1)</h1>
         <div class="cb">
-        <form method="POST">
+
           <label><input type="checkbox" name="housing" value="Arrayo vista"><span class="checkbox-custom"></span>Arrayo vista</label>
           <label><input type="checkbox" name="housing" value="Plaza verde">Plaza verde</label>
           <label><input type="checkbox" name="housing" value="Middle earth">Middle earth</label>
@@ -59,7 +59,7 @@
           <label><input type="checkbox" name="housing" value="UTC housing">UTC housing</label>
           <input type="submit" id="special">
         </div>
-        </form>
+
         <i onclick="housingNext()" class="fas fa-arrow-circle-right"></i>
         <i onclick = "housingBefore()"class="fas fa-arrow-circle-left"></i>
       </div>
@@ -67,11 +67,11 @@
       <div id="political">
         <h1 class="question">What are your political beliefs?</h1>
         <div class="cb">
-        <form method="POST">
+
          <label><input type="checkbox" name="liberal" value="liberal"><span class="checkbox-custom"></span>Liberal</label>
          <label><input type="checkbox" name="conservative" value="conservative"><span class="checkbox-custom"></span>Conservative</label>
-         <input type="submit" id="special">
-       </form>
+
+
      </div>
         <i onclick="politicalNext()" class="fas fa-arrow-circle-right"></i>
         <i onclick = "politicalBefore()"class="fas fa-arrow-circle-left"></i>
@@ -80,7 +80,7 @@
       <div id="interest">
         <h1 class="question">What are your interests?</h1>
         <div class="cb">
-        <form method="POST">
+
          <label><input type="checkbox" name="interest" value="liberal"><span class="checkbox-custom"></span>Reading</label>
          <label><input type="checkbox" name="interest" value="conservative"><span class="checkbox-custom"></span>Writing</label>
          <label><input type="checkbox" name="interest" value="socialist"><span class="checkbox-custom"></span>Music</label>
@@ -90,8 +90,8 @@
          <label><input type="checkbox" name="interest" value="other"><span class="checkbox-custom"></span>Hiking</label>
          <label><input type="checkbox" name="interest" value="other"><span class="checkbox-custom"></span>Running</label>
          <label><input type="checkbox" name="interest" value="other"><span class="checkbox-custom"></span>Basketball</label>
-         <input type="submit" id="special">
-       </form>
+
+
      </div>
         <i onclick="interestNext()" class="fas fa-arrow-circle-right"></i>
         <i onclick = "interestBefore()"class="fas fa-arrow-circle-left"></i>
@@ -99,7 +99,7 @@
 
       <div id="value">
         <h1 class="question" id="valq">Please rate importance on a scale of 1-10 (10 being the most valuable)</h1>
-        <form method="POST">
+
         <input name="majorv" type="number" placeholder="Major" id="majorv" class="valv">
         <input name="yearv"type="number" placeholder="Year" id="yearv" class="valv">
         <input name="housingv"type="number" placeholder="Housing" id="housingv" class="valv">
