@@ -13,7 +13,7 @@
   <body>
     <div class="container">
       <div id="name">
-        <h1 class="question"> What is your name? </h1>
+        <h1 class="question"> What is your name? (Press submit after each question!)</h1>
         <form method="POST">
           <input name = "name"type="text" placeholder="...">
           <input type="submit">
@@ -57,9 +57,9 @@
           <label><input type="checkbox" name="housing" value="Puerta del sol">Puerta del sol</label>
           <label><input type="checkbox" name="housing" value="Commuter">Commuter</label> </br>
           <label><input type="checkbox" name="housing" value="UTC housing">UTC housing</label>
-          <input type="submit">
+          <input type="submit" id="special">
+        </div>
         </form>
-      </div>
         <i onclick="housingNext()" class="fas fa-arrow-circle-right"></i>
         <i onclick = "housingBefore()"class="fas fa-arrow-circle-left"></i>
       </div>
@@ -70,8 +70,9 @@
         <form method="POST">
          <label><input type="checkbox" name="liberal" value="liberal"><span class="checkbox-custom"></span>Liberal</label>
          <label><input type="checkbox" name="conservative" value="conservative"><span class="checkbox-custom"></span>Conservative</label>
+         <input type="submit" id="special">
        </form>
-      </div>
+     </div>
         <i onclick="politicalNext()" class="fas fa-arrow-circle-right"></i>
         <i onclick = "politicalBefore()"class="fas fa-arrow-circle-left"></i>
       </div>
@@ -89,9 +90,9 @@
          <label><input type="checkbox" name="hiking" value="other"><span class="checkbox-custom"></span>Hiking</label>
          <label><input type="checkbox" name="running" value="other"><span class="checkbox-custom"></span>Running</label>
          <label><input type="checkbox" name="basketball" value="other"><span class="checkbox-custom"></span>Basketball</label>
-         <input type="submit">
+         <input type="submit" id="special">
        </form>
-      </div>
+     </div>
         <i onclick="interestNext()" class="fas fa-arrow-circle-right"></i>
         <i onclick = "interestBefore()"class="fas fa-arrow-circle-left"></i>
       </div>
@@ -108,8 +109,6 @@
       </form>
       <i onclick = "valueBefore()"class="fas fa-arrow-circle-left"></i>
       </div>
-
-
 
     </div>
   </body>
