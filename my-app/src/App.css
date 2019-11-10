@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  padding: 0; 
+}
+
+.logo{
+  position: absolute;
+  font-size: 72px;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%, -50%);
+}
+
+.signIn{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat";
+}
