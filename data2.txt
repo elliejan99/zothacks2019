@@ -2,12 +2,12 @@
     "scoring_weights": {
       "interests": 1.5, 
       "values": 7.5, 
-      "age": 0.65, 
-      "coordinates": 0.015 
+      "age": 0.65
+    
     },
     "group1": [
     {
-        "name": "Beowulf the Conquerer",
+        "name": "BeowASDFulf the Conquerer",
         "interests": [
             "reading",
             "running",
@@ -24,9 +24,9 @@
             "rick and morty"
         ],
         "values": [
-            "humanism"
+            "Campus Village"
         ],
-        "age": "22",
+        "age": "2",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -41,9 +41,9 @@
             "traveling"
         ],
         "values": [
-            "adventure"
+            "Middle Earth"
         ],
-        "age": "26",
+        "age": "1",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -59,9 +59,9 @@
             "netflix"
         ],
         "values": [
-            "family"
+            "Mesa Court"
         ],
-        "age": "32",
+        "age": "3",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -77,9 +77,9 @@
             "playstation"
         ],
         "values": [
-            "lag kills"
+            "Puerta del Sol"
         ],
-        "age": "17",
+        "age": "1",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -94,10 +94,9 @@
             "tea"
         ],
         "values": [
-            "family",
-            "religion"
+            "Campus Village"
         ],
-        "age": "35",
+        "age": "3",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -113,9 +112,9 @@
             "traveling"
         ],
         "values": [
-            "individuality"
+            "Middle Earth"
         ],
-        "age": "29",
+        "age": "4",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -132,9 +131,9 @@
             "Running"
         ],
         "values": [
-            "spirituality"
+            "Plaza Verde"
         ],
-        "age": "32",
+        "age": "3",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -151,10 +150,10 @@
             "poetry"
         ],
         "values": [
-            "individuality",
-            "freedom of speech"
+            "Mesa Court",
+            "Middle Earth"
         ],
-        "age": "25",
+        "age": "1",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -171,9 +170,9 @@
             "tea"
         ],
         "values": [
-            "good food"
+            "Campus Village"
         ],
-        "age": "37",
+        "age": "4",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -190,10 +189,10 @@
             "candles"
         ],
         "values": [
-            "love",
-            "relationships"
+            "Campus Village",
+            "Plaza Verde"
         ],
-        "age": "26",
+        "age": "2",
         "coordinates": {
             "lat": 47.599088077746394,
             "long": -122.3339125374332
@@ -210,9 +209,9 @@
             "guitar hero"
         ],
         "values": [
-            "individuality"
+            "Middle Earth"
         ],
-        "age": "22",
+        "age": "2",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
@@ -228,10 +227,10 @@
             "walking"
         ],
         "values": [
-            "family",
-            "love"
+            "Middle Earth",
+            "Mesa Court"
         ],
-        "age": "26",
+        "age": "2",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
@@ -248,10 +247,10 @@
             "running"
         ],
         "values": [
-            "post-modernism",
-            "beauty"
+            "Plaza Verde",
+            "Puerta del Sol"
         ],
-        "age": "32",
+        "age": "3",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
@@ -266,10 +265,10 @@
             "netflix"
         ],
         "values": [
-            "vegetarianism",
-            "individuality"
+            "Mesa Court",
+            "Middle Earth"
         ],
-        "age": "39",
+        "age": "3",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
@@ -284,10 +283,10 @@
             "postmodern art"
         ],
         "values": [
-            "individuality",
-            "relationships"
+            "Middle Earth",
+            "Mesa Court"
         ],
-        "age": "21",
+        "age": "1",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
@@ -303,10 +302,10 @@
             "turkish cuisine"
         ],
         "values": [
-            "family",
-            "love"
+            "Middle Earth",
+            "Mesa Court"
         ],
-        "age": "29",
+        "age": "2",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
@@ -321,10 +320,10 @@
             "running"
         ],
         "values": [
-            "love",
-            "individuality"
+            "Plaza Verde",
+            "Campus Village"
         ],
-        "age": "33",
+        "age": "3",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
@@ -340,10 +339,10 @@
             "science"
         ],
         "values": [
-            "individuality",
-            "scepticism"
+            "Campus Village",
+            "Middle Earth"
         ],
-        "age": "32",
+        "age": "4",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
@@ -360,11 +359,11 @@
             "running"
         ],
         "values": [
-            "individuality",
-            "free speech",
-            "activism"
+            "Middle Earth",
+            "Mesa Court",
+            "Puerta del Sol"
         ],
-        "age": "22",
+        "age": "2",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
@@ -380,10 +379,10 @@
             "traveling"
         ],
         "values": [
-            "love",
-            "art"
+            "Middle Earth",
+            "Mesa Court"
         ],
-        "age": "24",
+        "age": "2",
         "coordinates": {
             "lat": 47.62446091996251,
             "long": -122.32016064226627
