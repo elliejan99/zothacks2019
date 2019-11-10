@@ -74,3 +74,10 @@ function interestNext(){
   x.style.display = "none";
   y.style.display = "block";
 }
+
+function valueBefore(){
+  var x = document.getElementById("interest");
+  var y = document.getElementById("value");
+  x.style.display = "block";
+  y.style.display = "none";
+}
