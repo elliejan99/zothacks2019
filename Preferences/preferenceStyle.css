@@ -9,5 +9,86 @@ body{
 }
 
 .question{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
   margin: 0;
+  font-size: 100px;
+  color: white;
+  top: 20%;
+  margin-left: 0.5em;
+}
+
+input[type=text], input[type=number]{
+  position: absolute;
+  bottom: 200px;
+  margin-left: 0.5em;
+  width: 1000px;
+  font-size: 100px;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+  border-radius: 8px;
+  border: 0;
+}
+
+input[type=checkbox]{
+  cursor: pointer;
+}
+
+label{
+  color: white;
+  font-family:"Montserrat", sans-serif;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.cb{
+  position: absolute;
+  top: 55%;
+  margin-left: 20px;
+}
+
+.fas{
+  position: absolute;
+  bottom: 5px;
+  font-size: 100px;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+}
+
+.fa-arrow-circle-left{
+  left: 5px;
+}
+
+.fa-arrow-circle-right{
+  right: 5px;
+}
+
+#valq{
+  top: 5%;
+}
+
+#majorv, #yearv,#housingv,#politicalv,#interestv{
+  width: 150px;
+  font-size: 35px;
+}
+
+#yearv{
+  margin-left: 200px;
+}
+
+#housingv{
+  margin-left: 375px;
+}
+
+#politicalv{
+  margin-left: 500px;
+}
+
+#interestv{
+  margin-left: 625px;
+}
+/* CONTROL DISPLAYS */
+#major, #housing, #year, #political, #interest, #value{
+  display: none;
 }

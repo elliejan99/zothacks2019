@@ -4,18 +4,93 @@
     <meta charset="utf-8">
     <title>Zotify | Preferences</title>
     <link href="preferenceStyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af25eba62a.js" crossorigin="anonymous"></script>
+    <script src="preference.js"></script>
   </head>
 
   <body>
     <div class="container">
-    <div class="question" id="name">
-      <div class="name">
-        <h1>What is your name?</h1>
-        <input type="text" placeholder="Enter a value...">
+      <div id="name">
+          <h1 class="question"> What is your name? </h1>
+        <input type="text" placeholder="...">
+        <i onclick="nameNext()" class="fas fa-arrow-circle-right"></i>
       </div>
-      <div class="question" id="major">
+
+      <div id="major">
+        <h1 class="question"> What is your major? </h1>
+        <input type="text" placeholder="...">
+        <i onclick="majorNext()" class="fas fa-arrow-circle-right"></i>
+        <i onclick = "majorBefore()"class="fas fa-arrow-circle-left"></i>
       </div>
+
+      <div id="year">
+        <h1 class="question"> What is your year? </h1>
+        <input type="number" placeholder="...">
+        <i onclick="yearNext()" class="fas fa-arrow-circle-right"></i>
+        <i onclick = "yearBefore()"class="fas fa-arrow-circle-left"></i>
+      </div>
+
+      <div id="housing">
+        <h1 class="question"> Where do you live? (Pick 1)</h1>
+        <div class="cb">
+         <label><input type="checkbox" name="house" value="Arrayo vista"><span class="checkbox-custom"></span>Arrayo vista</label>
+        <label><input type="checkbox" name="house" value="Plaza verde">Plaza verde</label>
+        <label><input type="checkbox" name="house" value="Middle earth">Middle earth</label>
+        <label><input type="checkbox" name="house" value="Mesa court">Mesa court</label>
+        <label><input type="checkbox" name="house" value="Campus village">Campus village</label>
+        <label><input type="checkbox" name="house" value="Palo de verde">Palo de verde</label> </br>
+        <label><input type="checkbox" name="house" value="Vista del campo">Vista del campo</label>
+        <label><input type="checkbox" name="house" value="Vista del campo norte">Vista del campo norte</label>
+        <label><input type="checkbox" name="house" value="Camino del sol">Camino del sol</label>
+        <label><input type="checkbox" name="house" value="Puerta del sol">Puerta del sol</label>
+        <label><input type="checkbox" name="house" value="Commuter">Commuter</label> </br>
+        <label><input type="checkbox" name="house" value="UTC housing">UTC housing</label>
+      </div>
+        <i onclick="housingNext()" class="fas fa-arrow-circle-right"></i>
+        <i onclick = "housingBefore()"class="fas fa-arrow-circle-left"></i>
+      </div>
+
+      <div id="political">
+        <h1 class="question">What are your political beliefs?</h1>
+        <div class="cb">
+         <label><input type="checkbox" name="politcal" value="liberal"><span class="checkbox-custom"></span>Liberal</label>
+         <label><input type="checkbox" name="politcal" value="conservative"><span class="checkbox-custom"></span>Conservative</label>
+         <label><input type="checkbox" name="politcal" value="socialist"><span class="checkbox-custom"></span>Socialist</label>
+         <label><input type="checkbox" name="politcal" value="other"><span class="checkbox-custom"></span>Other</label>
+      </div>
+        <i onclick="politicalNext()" class="fas fa-arrow-circle-right"></i>
+        <i onclick = "politicalBefore()"class="fas fa-arrow-circle-left"></i>
+      </div>
+
+      <div id="interest">
+        <h1 class="question">What are your interests?</h1>
+        <div class="cb">
+         <label><input type="checkbox" name="politcal" value="liberal"><span class="checkbox-custom"></span>Reading</label>
+         <label><input type="checkbox" name="politcal" value="conservative"><span class="checkbox-custom"></span>Writing</label>
+         <label><input type="checkbox" name="politcal" value="socialist"><span class="checkbox-custom"></span>Music</label>
+         <label><input type="checkbox" name="politcal" value="other"><span class="checkbox-custom"></span>Film</label>
+         <label><input type="checkbox" name="politcal" value="other"><span class="checkbox-custom"></span>Coding</label>
+         <label><input type="checkbox" name="politcal" value="other"><span class="checkbox-custom"></span>Beach</label>
+         <label><input type="checkbox" name="politcal" value="other"><span class="checkbox-custom"></span>Hiking</label>
+         <label><input type="checkbox" name="politcal" value="other"><span class="checkbox-custom"></span>Running</label>
+         <label><input type="checkbox" name="politcal" value="other"><span class="checkbox-custom"></span>Basketball</label>
+      </div>
+        <i onclick="interestNext()" class="fas fa-arrow-circle-right"></i>
+        <i onclick = "interestBefore()"class="fas fa-arrow-circle-left"></i>
+      </div>
+
+      <div id="value">
+        <h1 class="question" id="valq">Please rate importance on a scale of 1-10 (10 being the most valuable)</h1>
+        <input type="number" placeholder="Major" id="majorv" class="valv">
+        <input type="number" placeholder="Year" id="yearv" class="valv">
+        <input type="number" placeholder="Housing" id="housingv" class="valv">
+        <input type="number" placeholder="Political stance" id="politicalv" class="valv">
+        <input type="number" placeholder="Interest" id="interestv" class="valv">
+      </div>
+
+
+
     </div>
-  </div>
   </body>
 </html>
