@@ -5,6 +5,17 @@ body{
   overflow: hidden;
 }
 
+h1 {
+	font-size: 5em;
+	text-align: center;
+	color: white;
+	margin: 0em;
+}
+
+img {
+
+}
+
 #bgContainer{
   position: absolute;
   width: 100%;
@@ -24,93 +35,23 @@ body{
 
 .box{
   position: absolute;
-  width: 300px;
+  width: 30vw;
   background-color: rgba(0,0,0,0.7);
-  height: 200px;
+  height: 20vh;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 8px;
+  border-radius: 2em;
   padding: 2em;
 }
 
-#logo{
-  position: absolute;
-  font-size: 72px;
-  left: 50%;
-  top: 25%;
-  transform: translate(-50%, -50%);
-  color: white;
+img {
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-#logo p{
-  margin: 0;
-}
-
-.getStarted{
-  position: absolute;
-  left: 50%;
-  top: 65%;
-  transform: translate(-50%, -50%);
-  border-radius: 15px;
-  background-color: #0064A4;
-  color: #FFD200;
-  border: 0;
-  font-size: 28px;
-  text-transform: uppercase;
-  padding: 10px 40px;
-  cursor: pointer;
-}
-
-.getStarted:hover{
-  background-color: #FFD200;
-  color: #0064A4;
-  transition: 0.5s;
-}
-
-#hidden{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border-radius: 8px;
-  display: none;
-}
-
-#hidden button{
-  position: absolute;
-  font-size: 24px;
-  background: #0064A4;
-  color: #FFD200;
-  margin-bottom: 10px;
-  padding: 15px 40px;
-  width: 273px;
-  border-radius: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  cursor: pointer;
-  border: 0;
-}
-
-#hidden button:hover{
-  background-color: #FFD200;
-  color: #0064A4;
-  transition: 0.5s;
-}
-
-#hidden .signUp{
-  top: 15%;
-}
-
-#hidden .logIn{
-  top: 55%;
-}
-
-@keyframes fade{
-  0% {opacity: 0}
-  50% {opacity: 1}
-  100% {opacity: 1}
+img:active{
+	background-image: url("Landing/img/bpress.png");
 }
