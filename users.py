@@ -12,5 +12,3 @@ class User(Resource):
     def post(self):
         data = User.parser.parse_args()
 
-        try:
-            

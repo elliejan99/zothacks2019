@@ -1,6 +1,7 @@
 import Algorithmia
 import json
 from Algorithmia.acl import ReadAcl, AclType
+import app
 
 apiKey = "simglFzyXkye8lDWJ0rGViwralu1"
 # Create the Algorithmia client
@@ -40,6 +41,7 @@ try:
     f = open('result1.txt', 'w')
     json.dump(algo.pipe(input).result, f)
     f.close()
+    app()
 except Exception as error:
     # Algorithm error if, for example, the input is not correctly formatted
     print(error)
