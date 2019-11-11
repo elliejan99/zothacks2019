@@ -11,4 +11,6 @@ class User(Resource):
 
     def post(self):
         data = User.parser.parse_args()
+        users = mongo.db.insert_one("name": data['name'], "year": data[year], "housing": data[housing],
+            "interest": data[interest], "value": data[value])
 

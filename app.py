@@ -5,7 +5,7 @@ from pymongo import MongoClient
 from flask_restful import Resource, reqparse
 from db import mongo 
 
-#from users.py import User
+from users.py import User
 
 app = Flask(__name__)
 
