@@ -116,7 +116,12 @@ label{
 #interestv{
   margin-left: 725px;
 }
-/* CONTROL DISPLAYS */
-#major, #housing, #year, #political, #interest, #value{
-  display: none;
+
+#finish{
+  font-family:"Montserrat", sans-serif;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  font-size: 24px;
+  color: white;
 }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zotify | Preferences</title>
+    <link href="preferenceStyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af25eba62a.js" crossorigin="anonymous"></script>
+    <script src="preference.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="value">
+        <h1 class="question" id="valq">Please rate importance on a scale of 1-10 (10 being the most valuable)</h1>
+        <form method="POST">
+        <input name="majorv" type="number" placeholder="Major" id="majorv" class="valv">
+        <input name="yearv"type="number" placeholder="Year" id="yearv" class="valv">
+        <input name="housingv"type="number" placeholder="Housing" id="housingv" class="valv">
+        <input name="politicalv"type="number" placeholder="Political stance" id="politicalv" class="valv">
+        <input name="interestv"type="number" placeholder="Interest" id="interestv" class="valv">
+        <input type="submit">
+      </form>
+      <a href="interest.html"><i class="fas fa-arrow-circle-left"></i></a>
+      <a href="Results/results.html"><p id="finish"> Finish</p></a>
+      </div>
+
+    </div>
+  </body>
+</html>
