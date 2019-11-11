@@ -1,6 +1,7 @@
 import Algorithmia
 import json
 from Algorithmia.acl import ReadAcl, AclType
+import app
 
 apiKey = "simglFzyXkye8lDWJ0rGViwralu1"
 # Create the Algorithmia client
@@ -20,25 +21,27 @@ acl.read_acl == AclType.my_algos  # True
 nlp_directory.update_permissions(ReadAcl.private)
 nlp_directory.get_permissions().read_acl == AclType.private # True
 
-text_file = "data://eijan/nlp_directory/data1.txt"
+text_file = "data://eijan/nlp_directory/data2.txt"
 
 # Upload local file
 if client.file(text_file).exists() is False:
-    client.file(text_file).putFile("/Users/eijan/Documents/zothacks2019/data1.txt")
+    client.file(text_file).putFile("/Users/eijan/Documents/zothacks2019/data2.txt")
 
 # Download contents of file as a string
 if client.file(text_file).exists() is True:
-    #input_string = client.file(text_file).getString()
-    with open('data1.txt') as json_file:
+    with open('data2.txt') as json_file:
         input = json.load(json_file)
     
 # Create the algorithm object using the Summarizer algorithm
 algo = client.algo('matching/DatingAlgorithm/0.1.3')
-#algo_dict = json.loads(algo.pipe(input).result)
 # Pass in input required by algorithm
 try:
     # Get the summary result of your file's contents
-    print(algo.pipe(input).result)
+    #print(algo.pipe(input).result)
+    f = open('result1.txt', 'w')
+    json.dump(algo.pipe(input).result, f)
+    f.close()
+    app()
 except Exception as error:
     # Algorithm error if, for example, the input is not correctly formatted
     print(error)
